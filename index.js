@@ -6,7 +6,7 @@ inquirer.prompt([
     {
         type: "input",
         message: "What is the title of your project/application?",
-        name: "Title",
+        name: "title",
     },
     {
         type: "input",
@@ -17,6 +17,11 @@ inquirer.prompt([
         type: "input",
         message: "Are there any required installation instructions?",
         name: "install",
+    },
+    {
+        type: "input",
+        message: "How is your application/project used?",
+        name: "usage",
     },
     {
         type: "input",

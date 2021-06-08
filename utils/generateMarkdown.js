@@ -19,17 +19,16 @@ function generateMarkdown(data) {
   ${data.install}
 
   ## Installation
-
+  ${data.install}
   ## Usage
-
+  ${data.usage}
   ## Contributing
-
+  ${data.contributors}
   ## Tests
-
+  ${data.tests}
   ## Questions
-
-
-
+  ${data.Github}
+  ${data.email}
 `;
 }
 
